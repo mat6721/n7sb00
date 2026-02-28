@@ -1,6 +1,6 @@
 # OpenClaw Windows 一键安装脚本
 # 使用方法: 以管理员身份打开 PowerShell，然后运行:
-# Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mat/openclaw-installer/main/install-windows.ps1' -UseBasicParsing).Content
+# Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mat6721/openclaw-installer/main/install-windows.ps1' -UseBasicParsing).Content
 
 param(
     [switch]$SkipWSLCheck,
@@ -109,7 +109,7 @@ function Configure-Ubuntu {
 
 # 在 Ubuntu 中安装 OpenClaw
 function Install-OpenClawInWSL {
-    param([string]$InstallScriptUrl = "https://raw.githubusercontent.com/你的用户名/openclaw-installer/main/install.sh")
+    param([string]$InstallScriptUrl = "https://raw.githubusercontent.com/mat6721/openclaw-installer/main/install.sh")
     
     Write-Info "在 Ubuntu 中安装 OpenClaw..."
     Write-Info "这可能需要几分钟，请耐心等待..."
