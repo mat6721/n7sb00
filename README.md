@@ -4,10 +4,10 @@
 
 ```bash
 # macOS / Linux
-curl -fsSL https://raw.githubusercontent.com/mat/openclaw-installer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mat6721/openclaw-installer/main/install.sh | bash
 
 # Windows (管理员 PowerShell)
-Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mat/openclaw-installer/main/install-windows.ps1' -UseBasicParsing).Content
+Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mat6721/openclaw-installer/main/install-windows.ps1' -UseBasicParsing).Content
 ```
 
 ---
@@ -26,7 +26,7 @@ Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mat
 ### macOS / Linux
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/mat/openclaw-installer/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/mat6721/openclaw-installer/main/install.sh | bash
 ```
 
 ### Windows
@@ -35,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/mat/openclaw-installer/main/install
 2. 运行：
 
 ```powershell
-Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mat/openclaw-installer/main/install-windows.ps1' -UseBasicParsing).Content
+Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/mat6721/openclaw-installer/main/install-windows.ps1' -UseBasicParsing).Content
 ```
 
 3. 按提示重启电脑（首次安装 WSL2 需要）
