@@ -2,7 +2,7 @@
 #
 # OpenClaw 一键安装脚本
 # 支持: macOS, Linux
-# 使用方法: curl -fsSL https://raw.githubusercontent.com/mat/openclaw-installer/main/install.sh | bash
+# 使用方法: curl -fsSL https://raw.githubusercontent.com/mat6721/openclaw-installer/main/install.sh | bash
 #
 
 set -e
